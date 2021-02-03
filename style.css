@@ -1,0 +1,87 @@
+:root {
+	--buttonFontFamily: 'Courier New';
+	--buttonFontSize: 24px;
+	--buttonBackground: rgb(128,128,128);
+	--buttonBorder: 1px solid rgb(0,0,0);
+}
+body {
+	background: rgb(24,26,27);
+}
+
+#title{
+	font-family: 'Courier New';
+	font-size: 24px;
+	color: rgb(255,255,255);
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+
+#calculator {
+	width: 400px;
+	height: 600px;
+	background: rgb(32,32,32);
+	border: 4px solid rgb(12,12,12);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#display {
+	background: rgb(12,12,12);
+	width: 100%;
+	height: 15%;
+	text-align: right;
+	font-size: 24px;
+	border: 1px solid rgb(0,0,0);
+}
+
+#displayChain {
+	font-family: var(--buttonFontFamily);
+	font-size: 18px;
+	color: rgb(128,128,128);
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#displayResult {
+	font-family: var(--buttonFontFamily);
+	font-size: 24px;
+	color: rgb(255,255,255);
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#options {
+	float: left;
+	width: 75%;
+	height: 15%;
+}
+
+#options td {
+	font-family: var(--buttonFontFamily);
+	font-size: var(--buttonFontSize);
+	text-align: center;
+	background: var(--buttonBackground);
+	border: var(--buttonBorder);
+}
+
+#numbers {
+	float: left;
+	width: 75%;
+	height: 60%;
+}
+
+#operations {
+	float: right;
+	width: 25%;
+	height: 75%;
+}
+
+#numbers td, #operations td {
+	font-family: var(--buttonFontFamily);
+	font-size: var(--buttonFontSize);
+	width: 33%;
+	text-align: center;
+	background: var(--buttonBackground);
+	border: var(--buttonBorder);
+}
