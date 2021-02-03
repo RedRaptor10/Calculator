@@ -128,7 +128,7 @@ function inputEqual() {
 			num2 = parseFloat(parseFloat(display.innerHTML).toFixed(9));
 		}
 
-		displayChain.innerHTML += num2 + ' =';
+		displayChain.innerHTML = num1 + ' ' + operator + ' ' + num2;
 		result = operate(num1, num2, operator);
 		num1 = result; // Set num1 to new result
 		display.innerHTML = result;

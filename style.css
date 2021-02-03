@@ -2,7 +2,7 @@
 	--buttonFontFamily: 'Courier New';
 	--buttonFontSize: 24px;
 	--buttonBackground: rgb(128,128,128);
-	--buttonBorder: 1px solid rgb(0,0,0);
+	--buttonBorder: 2px solid rgb(0,0,0);
 }
 body {
 	background: rgb(24,26,27);
@@ -24,6 +24,7 @@ body {
 	border: 4px solid rgb(12,12,12);
 	margin-left: auto;
 	margin-right: auto;
+	padding: 4px;
 }
 
 #display {
@@ -32,7 +33,6 @@ body {
 	height: 15%;
 	text-align: right;
 	font-size: 24px;
-	border: 1px solid rgb(0,0,0);
 }
 
 #displayChain {
@@ -84,4 +84,12 @@ body {
 	text-align: center;
 	background: var(--buttonBackground);
 	border: var(--buttonBorder);
+}
+
+#options td:hover, #numbers td:hover, #operations td:hover {
+	background: rgb(160,160,160);
+}
+
+#options td:active, #numbers td:active, #operations td:active {
+	background: rgb(192,192,192);
 }
