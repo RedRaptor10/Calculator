@@ -164,19 +164,16 @@ function operate(num1, num2, operator) {
 	switch (operator) {
 		case '+':
 			return add(num1, num2);
-			break;
 		case '-':
 			return subtract(num1, num2);
-			break;
+
 		case '*':
 			return multiply(num1, num2);
-			break;
 		case '/':
 			if (num2 == 0) {
 				return 'Cannot divide by zero';
 			}
 			return divide(num1, num2);
-			break;
 		default:
 			break;
 	}

@@ -84,6 +84,11 @@ body {
 	text-align: center;
 	background: var(--buttonBackground);
 	border: var(--buttonBorder);
+	cursor: pointer;
+}
+
+#options td {
+	cursor: pointer;
 }
 
 #options td:hover, #numbers td:hover, #operations td:hover {
