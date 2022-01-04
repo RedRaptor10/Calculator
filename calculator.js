@@ -138,16 +138,16 @@ function inputEqual() {
 }
 
 function backspace() {
-		let length = display.innerHTML.length;
+	let length = display.innerHTML.length;
 
-		// If display number has 1 digit, set to 0
-		if (length == 1) {
-			display.innerHTML = '0';
-		} else {
-			// Remove last digit from display number
-			let newNum = display.innerHTML.substring(0,length - 1);
-			display.innerHTML = newNum;
-		}
+	// If display number has 1 digit, set to 0
+	if (length == 1) {
+		display.innerHTML = '0';
+	} else {
+		// Remove last digit from display number
+		let newNum = display.innerHTML.substring(0,length - 1);
+		display.innerHTML = newNum;
+	}
 }
 
 function reset() {
