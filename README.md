@@ -4,6 +4,8 @@ A simple calculator app created through [TheOdinProject](https://www.theodinproj
 
 [Live Demo](https://redraptor10.github.io/Calculator)
 
+![Calculator](/src/assets/preview.jpg)
+
 # Features
 
 - Add, subtract, multiply & divide numbers
